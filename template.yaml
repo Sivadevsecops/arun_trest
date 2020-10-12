@@ -4,7 +4,7 @@ Description: An example SAM template for Lambda Safe Deployments.
 
 Resources:
 
-  returnS3Buckets:
+  returnS3BucketsTest:
     Type: AWS::Serverless::Function
     Properties:
       Handler: returnS3BucketsTest.handler
